@@ -1,0 +1,7 @@
+{
+  "variables" : [ {
+    "name" : "nome_banco",
+    "value" : "aws_dev",
+    "description" : ""
+  } ]
+}

@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  dbt:
+    image: imgdbt-hopdbt
+    container_name: dbt-hopdbt
+    volumes:
+      - ./dbt:/dbt
+      - ./profiles:/root/.dbt/
+    entrypoint: ["tail", "-f", "/dev/null"]
+    networks:
+      - hopdbt-network
+
+networks:
+  hopdbt-network:
+    external: true
