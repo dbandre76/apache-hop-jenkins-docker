@@ -66,6 +66,16 @@
       <yloc>80</yloc>
       <attributes_hac/>
     </action>
+    <action>
+      <name>Dummy</name>
+      <description/>
+      <type>DUMMY</type>
+      <attributes/>
+      <parallel>N</parallel>
+      <xloc>304</xloc>
+      <yloc>176</yloc>
+      <attributes_hac/>
+    </action>
   </actions>
   <hops>
     <hop>

@@ -57,7 +57,7 @@ pipeline {
                 docker exec ${DBT_CONTAINER} dbt test \
                   --project-dir ${DBT_PROJECT_DIR} \
                   --target ${dbtTarget} \
-                  --select source:bronze
+                  --select source:silver
               """
             }
           }
