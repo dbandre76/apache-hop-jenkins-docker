@@ -54,11 +54,11 @@ pipeline {
               """
 
               sh """
-                docker exec ${DBT_CONTAINER} dbt test \
+                docker exec ${DBT_CONTAINER} dbt run \
                   --project-dir ${DBT_PROJECT_DIR} \
                   --target ${dbtTarget} \
-                  --select source:silver
-              """
+                  --select silver gold
+            
             }
           }
         }
