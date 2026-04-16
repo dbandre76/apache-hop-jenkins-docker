@@ -49,7 +49,7 @@ pipeline {
                 docker exec ${DOCKER_CONTAINER} bash -c "${HOP_SCRIPT} \
                   -p ${HOP_PROJECT} \
                   -f /usr/local/tomcat/webapps/ROOT/project/${relativePath} \
-                  -e hopdbt-${hopAmbiente} \
+                  -e aws-target-${hopAmbiente} \
                   -r local"
               """
 
