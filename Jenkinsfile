@@ -58,7 +58,7 @@ pipeline {
                   --project-dir ${DBT_PROJECT_DIR} \
                   --target ${dbtTarget} \
                   --select silver gold
-            
+              """
             }
           }
         }
