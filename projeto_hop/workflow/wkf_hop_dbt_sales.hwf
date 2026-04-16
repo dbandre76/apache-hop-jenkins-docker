@@ -26,8 +26,8 @@
       <schedulerType>0</schedulerType>
       <weekDay>1</weekDay>
       <parallel>N</parallel>
-      <xloc>64</xloc>
-      <yloc>80</yloc>
+      <xloc>48</xloc>
+      <yloc>16</yloc>
       <attributes_hac/>
     </action>
     <action>
@@ -64,6 +64,16 @@
       <parallel>N</parallel>
       <xloc>416</xloc>
       <yloc>80</yloc>
+      <attributes_hac/>
+    </action>
+    <action>
+      <name>Dummy</name>
+      <description/>
+      <type>DUMMY</type>
+      <attributes/>
+      <parallel>N</parallel>
+      <xloc>272</xloc>
+      <yloc>224</yloc>
       <attributes_hac/>
     </action>
   </actions>

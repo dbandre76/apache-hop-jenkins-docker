@@ -297,7 +297,7 @@
     <attributes/>
     <GUI>
       <xloc>80</xloc>
-      <yloc>32</yloc>
+      <yloc>0</yloc>
     </GUI>
   </transform>
   <transform>
@@ -517,14 +517,11 @@
     <only_when_have_rows>Y</only_when_have_rows>
     <partitioning_daily>N</partitioning_daily>
     <partitioning_enabled>N</partitioning_enabled>
-    <partitioning_field/>
     <partitioning_monthly>Y</partitioning_monthly>
-    <return_field/>
     <return_keys>N</return_keys>
     <schema>bronze</schema>
     <specify_fields>N</specify_fields>
     <table>bronze_aws_order_details</table>
-    <tablename_field/>
     <tablename_in_field>N</tablename_in_field>
     <tablename_in_table>Y</tablename_in_table>
     <truncate>Y</truncate>
@@ -550,41 +547,26 @@
       <field>
         <source_field>order_id</source_field>
         <target_field>order_id</target_field>
-        <target_format/>
-        <target_length/>
-        <target_precision/>
         <target_type>Integer</target_type>
       </field>
       <field>
         <source_field>product_id</source_field>
         <target_field>product_id</target_field>
-        <target_format/>
-        <target_length/>
-        <target_precision/>
         <target_type>Integer</target_type>
       </field>
       <field>
         <source_field>unit_price</source_field>
         <target_field>unit_price</target_field>
-        <target_format/>
-        <target_length/>
-        <target_precision/>
         <target_type>Number</target_type>
       </field>
       <field>
         <source_field>quantity</source_field>
         <target_field>quantity</target_field>
-        <target_format/>
-        <target_length/>
-        <target_precision/>
         <target_type>Integer</target_type>
       </field>
       <field>
         <source_field>discount</source_field>
         <target_field>discount</target_field>
-        <target_format/>
-        <target_length/>
-        <target_precision/>
         <target_type>Number</target_type>
       </field>
     </fields>
