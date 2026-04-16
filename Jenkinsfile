@@ -12,7 +12,24 @@ pipeline {
     AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
   }
 
-  stages {
+  // stages {
+  //   stage('Detectar pipelines modificados') {
+  //     steps {
+  //       script {
+
+  //         def arquivos = sh(script: "git diff --name-only HEAD~1 HEAD", returnStdout: true)
+  //           .trim()
+  //           .split('\n')
+  //           .findAll { it }
+
+  //         def hopFiles = arquivos.findAll { it.endsWith('.hpl') || it.endsWith('.hwf') }
+
+  //         if (!hopFiles) {
+  //           echo "Nenhum pipeline modificado"
+  //           return
+  //         }
+
+ stages {
     stage('Detectar pipelines modificados') {
       steps {
         script {
