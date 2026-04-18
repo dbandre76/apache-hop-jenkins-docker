@@ -1,59 +1,92 @@
-# Apache Hop + Jenkins + Docker CI/CD Pipeline
+<div align="center">
 
-This project demonstrates a CI/CD workflow using **Apache Hop**, **Jenkins**, and **Docker** integrated with **GitHub**.
+<h1>🚀 Apache Hop + Jenkins + Docker</h1>
 
-The main goal is to provide an automated and reproducible environment for deploying and executing ETL pipelines and workflows.
+<p>
+<strong>Andre Rodrigues – DBA | DBRE | Data Engineer</strong><br>
+Passionate about Automation, Performance, and Reliability
+</p>
 
-## Architecture
+<p>
+CI/CD workflow for ETL pipelines using Apache Hop, Jenkins, Docker, and GitHub
+</p>
 
-* **Apache Hop** for data pipelines and workflow orchestration
-* **Jenkins** for CI/CD automation
-* **Docker** for containerised deployment
-* **GitHub** for source control and versioning
+<hr>
 
-## Project Purpose
+</div>
 
-This repository was created to automate pipeline deployment and execution using container-based environments.
+<h2>📌 Project Overview</h2>
 
-It can be used for:
+<p>
+This project demonstrates a complete CI/CD workflow using <b>Apache Hop</b>, <b>Jenkins</b>, and <b>Docker</b>.
+The main goal is to provide an automated, reproducible, and scalable environment for ETL pipeline deployment and execution.
+</p>
 
-* ETL workflow deployment
-* automated build and execution
-* CI/CD pipeline validation
-* reproducible development and testing environments
+<h2>🏗️ Architecture</h2>
 
-## Workflow
+<table>
+<tr>
+<th>Component</th>
+<th>Purpose</th>
+</tr>
+<tr>
+<td>Apache Hop</td>
+<td>Data pipeline orchestration</td>
+</tr>
+<tr>
+<td>Jenkins</td>
+<td>CI/CD automation</td>
+</tr>
+<tr>
+<td>Docker</td>
+<td>Containerised environment</td>
+</tr>
+<tr>
+<td>GitHub</td>
+<td>Version control</td>
+</tr>
+</table>
 
-The process follows this flow:
+<h2>⚙️ Workflow</h2>
 
-GitHub → Jenkins Pipeline → Docker Build → Apache Hop Execution
+<pre>
+GitHub → Jenkins → Docker Build → Apache Hop Pipeline
+</pre>
 
-Whenever code is pushed to the repository, Jenkins triggers the pipeline, builds the Docker image, validates the workflow, and deploys the latest version.
+<p>
+Every push to the repository triggers the Jenkins pipeline, validates the workflow,
+and deploys the latest container version.
+</p>
 
-## Technologies Used
+<h2>📊 Key Benefits</h2>
 
-* Apache Hop
-* Jenkins
-* Docker
-* GitHub
-* Shell scripting / pipeline automation
+<ul>
+<li>Automated deployments</li>
+<li>Version control and traceability</li>
+<li>Reproducible environments</li>
+<li>Fast rollback and recovery</li>
+<li>Easy CI/CD integration</li>
+</ul>
 
-## Benefits
+<h2>🔍 Monitoring & Reliability</h2>
 
-* automated deployments
-* easy rollback
-* version control
-* consistent environments
-* faster testing and release cycles
+<p>
+This project can be extended with monitoring dashboards using Grafana, Prometheus,
+and Percona dashboards for performance visibility and alerting.
+</p>
 
-## Future Improvements
+<h2>🚀 Future Improvements</h2>
 
-* integrate with Kubernetes
-* add monitoring with Grafana / Prometheus
-* automated testing for pipelines
-* deployment to cloud environments
+<ul>
+<li>Kubernetes / Argo CD integration</li>
+<li>Cloud deployment (AWS / Azure)</li>
+<li>Automated testing stage</li>
+<li>Performance metrics dashboards</li>
+</ul>
 
-## Author
+<h2>👨‍💻 Author</h2>
 
-Andre Rodrigues – DBA | DBRE | Data Engineer | Excited about Data, Automation, and Cloud Reliability
-
+<p>
+Andre Rodrigues<br>
+DBA | DBRE | Data Engineer
+</p>
