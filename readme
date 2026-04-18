@@ -1,3 +1,59 @@
-Rodar o comando "docker network create --driver bridge hopdbt-network" antes de rodar o comando docker compose up --build -d 
+# Apache Hop + Jenkins + Docker CI/CD Pipeline
 
-Depois pode executar o docker compose up --build -dtrigger jenkins build
+This project demonstrates a CI/CD workflow using **Apache Hop**, **Jenkins**, and **Docker** integrated with **GitHub**.
+
+The main goal is to provide an automated and reproducible environment for deploying and executing ETL pipelines and workflows.
+
+## Architecture
+
+* **Apache Hop** for data pipelines and workflow orchestration
+* **Jenkins** for CI/CD automation
+* **Docker** for containerised deployment
+* **GitHub** for source control and versioning
+
+## Project Purpose
+
+This repository was created to automate pipeline deployment and execution using container-based environments.
+
+It can be used for:
+
+* ETL workflow deployment
+* automated build and execution
+* CI/CD pipeline validation
+* reproducible development and testing environments
+
+## Workflow
+
+The process follows this flow:
+
+GitHub → Jenkins Pipeline → Docker Build → Apache Hop Execution
+
+Whenever code is pushed to the repository, Jenkins triggers the pipeline, builds the Docker image, validates the workflow, and deploys the latest version.
+
+## Technologies Used
+
+* Apache Hop
+* Jenkins
+* Docker
+* GitHub
+* Shell scripting / pipeline automation
+
+## Benefits
+
+* automated deployments
+* easy rollback
+* version control
+* consistent environments
+* faster testing and release cycles
+
+## Future Improvements
+
+* integrate with Kubernetes
+* add monitoring with Grafana / Prometheus
+* automated testing for pipelines
+* deployment to cloud environments
+
+## Author
+
+Andre Rodrigues – DBA | DBRE | Data Engineer | Excited about Data, Automation, and Cloud Reliability
+
